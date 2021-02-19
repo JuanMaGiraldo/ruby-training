@@ -14,10 +14,3 @@ isTruthiness?(0)
 isTruthiness?("")
 isTruthiness?([])
 isTruthiness?(nil)
-
-a, b = 7,5
-
-case [a,b]
-when [[4,7],5]
-    puts "works"
-end

@@ -17,7 +17,7 @@ name_capitalize = name_lower[0..4].capitalize() << name_lower[5..11].capitalize(
 
 puts name_capitalize
 
-
+#bang methods
 name.upcase!
 
 puts name
