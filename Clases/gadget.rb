@@ -32,8 +32,14 @@ class Gadget
 
   def reset(username, password)
     self.username = username
-    self.password = password
+    self.password = (password)
     self.apps = []
+  end
+
+
+
+  def password=(password)
+    puts "hi this is password: #{password}"
   end
 
   private
@@ -62,3 +68,8 @@ phone.install_app(:Chat)
 phone.install_app(:Twitter)
 
 p phone.apps
+p phone.reset("juan","123")
+
+dict = { "val": "value"}
+
+p dict
